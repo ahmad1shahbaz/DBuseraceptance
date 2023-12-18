@@ -1,0 +1,5 @@
+co\wedevx\digitalbank\automation\ui\models\AccountCard.class
+co\wedevx\digitalbank\automation\ui\models\NewCheckingInfo.class
+co\wedevx\digitalbank\automation\ui\steps\data_transformer\DataTransformer.class
+co\wedevx\digitalbank\automation\ui\pages\LoginPage.class
+co\wedevx\digitalbank\automation\ui\steps\CheckingAccountSteps.class

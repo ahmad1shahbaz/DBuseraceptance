@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.733">
+    <testcase classname="Creating new checking account" name="Create a standard individual checking account" time="12.908">
+        <failure message="" type="org.opentest4j.AssertionFailedError"><![CDATA[Given user logged in as "vader@sith.com" "Lovetwo.123"......................passed
+When the user creates new checking account with following data..............passed
+Then the user should see the green "Successfully created new Standard Checking account named Vader" message.passed
+And user should see newly added account card................................failed
+
+StackTrace:
+org.opentest4j.AssertionFailedError
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:35)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:115)
+	at co.wedevx.digitalbank.automation.ui.steps.CheckingAccountSteps.user_should_see_newly_added_account_card(CheckingAccountSteps.java:84)
+	at ✽.user should see newly added account card(classpath:ui/features/checking/NewChecking.feature:8)
+]]></failure>
+    </testcase>
+</testsuite>
